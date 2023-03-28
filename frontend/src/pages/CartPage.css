@@ -1,0 +1,18 @@
+/* used at 4:14:03 */
+.fa-plus-circle,
+.fa-minus-circle{
+    cursor: pointer;
+
+}
+.fa-plus-circle{
+    margin-left: 10px;
+}
+
+.fa-minus-circle{
+    margin-right: 10px;
+}
+
+.table-responsive-sm{
+    max-height: 70vh;
+    overflow: scroll;
+}

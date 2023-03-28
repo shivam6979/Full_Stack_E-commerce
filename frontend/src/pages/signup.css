@@ -1,0 +1,24 @@
+.signup__image--container
+{
+    background-image:url(https://images.unsplash.com/photo-1506102383123-c8ef1e872756?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    height: 90vh;
+    background-size:cover;
+}
+
+.signup__form--container
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+@media screen and (max-width:756px)
+{
+    .signup__image--container
+    {
+        display:none;
+    }
+}
