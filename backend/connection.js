@@ -1,6 +1,6 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-const connectionStr='mongodb+srv://shiva:ZxJf1KONMThYSpCU@cluster0.yuxls.mongodb.net/ecommerce';
+const connectionStr='';
 mongoose.connect(connectionStr,{useNewUrlParser:true})
 .then(()=>console.log('connected to mongoDb'))
 .catch(err=> console.log(err));
